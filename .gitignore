@@ -1,3 +1,4 @@
 node_modules/
 watch.cmd
 npm-debug.log
+.vs/
