@@ -16,8 +16,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Thomas Dornell's Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -92,37 +92,58 @@
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/blackjack.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Console Blackjack (C#)</h3>
-                        <p>
-                            The game of Blackjack adapted for the console using C#. This project is just an example to showcase some code.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4">
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/workinprogress.jpg" />
+                            <div class="project-image">
+                                <img src="images/blackjack.jpg" />
+                            </div>
+                            <!-- End .project-image -->
+                        </div>
+                        <div class="col-xs-12 col-sm-8 project-info-parent">
+                            <div class="project-info">
+                                <h3>Console Blackjack (C#)</h3>
+                                <p>
+                                    The game of Blackjack adapted for the console using C#. Just an example to showcase some code.
+                                </p>
+                                <a href="https://github.com/tomas302/ConsoleBlackjack">View Project</a>
+                            </div>
+                            <!-- End .project-info -->
+                        </div>
+                        <!-- End .row-->
                     </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>WIP</h3>
-                        <p>
-                            Nothing to showcase here, yet.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
             </div>
+            <!-- End .row-->
+
+
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4">
+
+                            <div class="project-image">
+                                <img src="images/workinprogress.jpg" />
+                            </div>
+                            <!-- End .project-image -->
+                        </div>
+                        <div class="col-xs-12 col-sm-8 project-info-parent">
+                            <div class="project-info">
+                                <h3>WIP</h3>
+                                <p>
+                                    Nothing to showcase here, yet.
+                                </p>
+                                <a id="wip-link" href="javascript:$('#wip-link').html($('#wip-link').html().substring(0, $('#wip-link').html().length - 1))">Don't Click Me</a>
+                            </div>
+                            <!-- End .project-info -->
+                        </div>
+                        <!-- End .row-->
+                    </div>
+                </div>
+                <!-- End .project -->
+            </div>
+            <!-- End .row-->
         </div>
     </div>
     <!-- End #projects -->
@@ -157,7 +178,7 @@
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/tomasdornell@gmail.com">
+            <form method="POST" action="https://formspree.io/thomasdornell@gmail.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
@@ -188,9 +209,6 @@
                         </li>
                         <li>
                             <a href="https://www.linkedin.com/in/tom%C3%A1s-dornell-bonilla-77b4b9140/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
