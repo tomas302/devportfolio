@@ -1014,3 +1014,17 @@ footer {
         width: -webkit-fill-available;
     }
 }
+.padded-heading {
+    padding-top: 40px;
+}
+
+.padded-list li {
+    padding: 10px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+
+.framework-icon {
+    height: 58px;
+    width: 50px;
+}
