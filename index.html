@@ -22,6 +22,19 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+
+    <style>
+        img {
+            width: 300px;
+            height: 300px;
+        }
+
+        .project-info p {
+            color: #74808a;
+            margin: 0 0 15px 0;
+            font-size: 25px;
+        }
+    </style>
 </head>
 
 <body>
@@ -53,9 +66,10 @@
     <div id="lead">
         <div id="lead-content">
             <h1>Thomas Dornell</h1>
-            <h2>Full Stack Developer & Software Engineer</h2>
+            <h2>Front End Developer</h2>
             <a href="https://github.com/tomas302/" class="btn-rounded-white">View My Code</a>
-            <a href="https://www.linkedin.com/in/thomas-dornell-bonilla-77b4b9140/" class="btn-rounded-white">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/tom%C3%A1s-dornell-bonilla-b64a62177/"
+                class="btn-rounded-white">LinkedIn</a>
         </div>
         <!-- End #lead-content -->
 
@@ -78,9 +92,15 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat
+                        laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget
+                        efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
+                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et
+                        tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo
+                        tempus pharetra. Vivamus nunc justo, finibus
+                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In
+                        consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non
+                        leo.
                     </p>
                 </div>
             </div>
@@ -92,22 +112,23 @@
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
+                    <a target="_blank" href="https://github.com/tomas302/react-tetris">
                 <div class="project shadow-large">
                     <div class="row">
                         <div class="col-xs-12 col-sm-4">
 
                             <div class="project-image">
-                                <img src="images/blackjack.jpg" />
+                                <img src="images/tetris.jpg" />
                             </div>
                             <!-- End .project-image -->
                         </div>
                         <div class="col-xs-12 col-sm-8 project-info-parent">
                             <div class="project-info">
-                                <h3>Console Blackjack (C#)</h3>
+                                <h3>Tetris <b>(React.js & Redux)</b></h3>
                                 <p>
-                                    The game of Blackjack adapted for the console using C#. Just an example to showcase some code.
+                                    The game of Tetris made from scratch with React.js and Redux
                                 </p>
-                                <a href="https://github.com/tomas302/ConsoleBlackjack">View Project</a>
+                                View Project
                             </div>
                             <!-- End .project-info -->
                         </div>
@@ -115,27 +136,30 @@
                     </div>
                 </div>
                 <!-- End .project -->
+            </a>
             </div>
             <!-- End .row-->
 
+            <h2>Tutorials</h2>
 
             <div class="row">
+                    <a target="_blank" href="https://tomas302.github.io/react-pomodoro/">
                 <div class="project shadow-large">
                     <div class="row">
                         <div class="col-xs-12 col-sm-4">
 
                             <div class="project-image">
-                                <img src="images/workinprogress.jpg" />
+                                <img src="images/pomodoro.jpg" />
                             </div>
                             <!-- End .project-image -->
                         </div>
                         <div class="col-xs-12 col-sm-8 project-info-parent">
                             <div class="project-info">
-                                <h3>WIP</h3>
+                                <h3>Pomodoro Clock <b>(React.js)</b></h3>
                                 <p>
-                                    Nothing to showcase here, yet.
+                                    Pomodoro clock made in React.js
                                 </p>
-                                <a id="wip-link" href="javascript:$('#wip-link').html($('#wip-link').html().slice(0, -1))">Don't Click Me</a>
+                                View Project
                             </div>
                             <!-- End .project-info -->
                         </div>
@@ -143,6 +167,94 @@
                     </div>
                 </div>
                 <!-- End .project -->
+            </a>
+            </div>
+            <!-- End .row-->
+
+            <div class="row">
+                    <a target="_blank" href="https://tomas302.github.io/react-calculator/">
+                <div class="project shadow-large">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4">
+
+                            <div class="project-image">
+                                <img src="images/calculator.jpg" />
+                            </div>
+                            <!-- End .project-image -->
+                        </div>
+                        <div class="col-xs-12 col-sm-8 project-info-parent">
+                            <div class="project-info">
+                                <h3>Calculator <b>(React.js)</b></h3>
+                                <p>
+                                    A simple calculator
+                                </p>
+                                View Project
+                            </div>
+                            <!-- End .project-info -->
+                        </div>
+                        <!-- End .row-->
+                    </div>
+                </div>
+                <!-- End .project -->
+            </a>
+            </div>
+            <!-- End .row-->
+
+            <div class="row">
+                    <a target="_blank" href="https://tomas302.github.io/tribute-page/">
+                <div class="project shadow-large">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4">
+
+                            <div class="project-image">
+                                <img src="images/tribute.png" />
+                            </div>
+                            <!-- End .project-image -->
+                        </div>
+                        <div class="col-xs-12 col-sm-8 project-info-parent">
+                            <div class="project-info">
+                                <h3>Tribute Page</h3>
+                                <p>
+                                    Tribute page to Nelson Mandela.
+                                </p>
+                                View Project
+                            </div>
+                            <!-- End .project-info -->
+                        </div>
+                        <!-- End .row-->
+                    </div>
+                </div>
+                <!-- End .project -->
+            </a>
+            </div>
+            <!-- End .row-->
+
+            <div class="row">
+                <a target="_blank" href="https://tomas302.github.io/survey-form/">
+                    <div class="project shadow-large">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-4">
+
+                                <div class="project-image">
+                                    <img src="images/survey.jpg" />
+                                </div>
+                                <!-- End .project-image -->
+                            </div>
+                            <div class="col-xs-12 col-sm-8 project-info-parent">
+                                <div class="project-info">
+                                    <h3>Survey Form</h3>
+                                    <p>
+                                        An example form
+                                    </p>
+                                    View Project
+                                </div>
+                                <!-- End .project-info -->
+                            </div>
+                            <!-- End .row-->
+                        </div>
+                    </div>
+                    <!-- End .project -->
+                </a>
             </div>
             <!-- End .row-->
         </div>
@@ -158,25 +270,23 @@
             <li>CSS</li>
             <li>Python (Scripting and Data Science)</li>
             <li>Django</li>
-            <li>Java</li>
             <li>C#</li>
-            <li><a href="https://solidity.readthedocs.io/en/develop/" target="_blank">Solidity</a> (<a href="https://www.ethereum.org/" target="_blank">Ethereum</a> & Blockchain)</li>
+            <li><a href="https://solidity.readthedocs.io/en/develop/" target="_blank">Solidity</a> (<a
+                    href="https://www.ethereum.org/" target="_blank">Ethereum</a> & Blockchain)</li>
             <li>Unity3D (Game Engine)</li>
             <li>Machine Learning</li>
-            <li>Linux Scripting</li>
             <li>Test Driven Development</li>
             <li>Git</li>
             <li>SQL</li>
-            <li>MVC</li>
-            <li>Software for Production</li>
             <li>Heroku</li>
             <li>AWS</li>
         </ul>
         <h2 class="heading padded-heading">JavaScript Frameworks</h2>
         <ul class="padded-list">
-            <li><a href="https://reactjs.org" target="_blank"><img class="framework-icon" src="images/js-frameworks/react.png"><br>React</a></li>
-            <li><a href="https://angular.io" target="_blank"><img class="framework-icon" src="images/js-frameworks/angular.png"><br>Angular</a></li>
-            <li><a href="https://jquery.com" target="_blank"><img class="framework-icon" src="images/js-frameworks/jquery.png"><br>jQuery</a></li>
+            <li><a href="https://reactjs.org" target="_blank"><img class="framework-icon"
+                        src="images/js-frameworks/react.png"><br>React</a></li>
+            <li><a href="https://jquery.com" target="_blank"><img class="framework-icon"
+                        src="images/js-frameworks/jquery.png"><br>jQuery</a></li>
         </ul>
     </div>
     <!-- End #skills -->
@@ -184,7 +294,7 @@
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/thomasdornell@gmail.com">
+            <form method="POST" action="https://formspree.io/tomasdornell.gtd@gmail.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
@@ -200,7 +310,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2017 Thomas Dornell
+                        Copyright &copy; 2019 Thomas Dornell
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -211,10 +321,12 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/tomas302/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/tomas302/" target="_blank"><i class="fa fa-github"
+                                    aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/thomas-dornell-bonilla-77b4b9140/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/tom%C3%A1s-dornell-bonilla-b64a62177/"
+                                target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
